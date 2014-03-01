@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36AC6CBC18C2A2A800057BF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AC6CBB18C2A2A800057BF6 /* Foundation.framework */; };
+		36AC6CBE18C2A2A800057BF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AC6CBD18C2A2A800057BF6 /* CoreGraphics.framework */; };
+		36AC6CC018C2A2A800057BF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AC6CBF18C2A2A800057BF6 /* UIKit.framework */; };
+		36AC6CC618C2A2A800057BF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36AC6CC418C2A2A800057BF6 /* InfoPlist.strings */; };
+		36AC6CC818C2A2A800057BF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC6CC718C2A2A800057BF6 /* main.m */; };
+		36AC6CCC18C2A2A800057BF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC6CCB18C2A2A800057BF6 /* AppDelegate.m */; };
+		36AC6CCF18C2A2A800057BF6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AC6CCD18C2A2A800057BF6 /* Main_iPhone.storyboard */; };
+		36AC6CD218C2A2A800057BF6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AC6CD018C2A2A800057BF6 /* Main_iPad.storyboard */; };
+		36AC6CD518C2A2A800057BF6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC6CD418C2A2A800057BF6 /* MasterViewController.m */; };
+		36AC6CD818C2A2A800057BF6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC6CD718C2A2A800057BF6 /* DetailViewController.m */; };
+		36AC6CDA18C2A2A800057BF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AC6CD918C2A2A800057BF6 /* Images.xcassets */; };
+		36AC6CE118C2A2A800057BF6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AC6CE018C2A2A800057BF6 /* XCTest.framework */; };
+		36AC6CE218C2A2A800057BF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AC6CBB18C2A2A800057BF6 /* Foundation.framework */; };
+		36AC6CE318C2A2A800057BF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AC6CBF18C2A2A800057BF6 /* UIKit.framework */; };
+		36AC6CEB18C2A2A800057BF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36AC6CE918C2A2A800057BF6 /* InfoPlist.strings */; };
+		36AC6CED18C2A2A800057BF6 /* comedoresUGRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AC6CEC18C2A2A800057BF6 /* comedoresUGRTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36AC6CE418C2A2A800057BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36AC6CB018C2A2A800057BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36AC6CB718C2A2A800057BF6;
+			remoteInfo = comedoresUGR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36AC6CB818C2A2A800057BF6 /* comedoresUGR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = comedoresUGR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AC6CBB18C2A2A800057BF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36AC6CBD18C2A2A800057BF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36AC6CBF18C2A2A800057BF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36AC6CC318C2A2A800057BF6 /* comedoresUGR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "comedoresUGR-Info.plist"; sourceTree = "<group>"; };
+		36AC6CC518C2A2A800057BF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36AC6CC718C2A2A800057BF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36AC6CC918C2A2A800057BF6 /* comedoresUGR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "comedoresUGR-Prefix.pch"; sourceTree = "<group>"; };
+		36AC6CCA18C2A2A800057BF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36AC6CCB18C2A2A800057BF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36AC6CCE18C2A2A800057BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		36AC6CD118C2A2A800057BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		36AC6CD318C2A2A800057BF6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		36AC6CD418C2A2A800057BF6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		36AC6CD618C2A2A800057BF6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		36AC6CD718C2A2A800057BF6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		36AC6CD918C2A2A800057BF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36AC6CDF18C2A2A800057BF6 /* comedoresUGRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comedoresUGRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AC6CE018C2A2A800057BF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		36AC6CE818C2A2A800057BF6 /* comedoresUGRTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "comedoresUGRTests-Info.plist"; sourceTree = "<group>"; };
+		36AC6CEA18C2A2A800057BF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36AC6CEC18C2A2A800057BF6 /* comedoresUGRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comedoresUGRTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36AC6CB518C2A2A800057BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AC6CBE18C2A2A800057BF6 /* CoreGraphics.framework in Frameworks */,
+				36AC6CC018C2A2A800057BF6 /* UIKit.framework in Frameworks */,
+				36AC6CBC18C2A2A800057BF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36AC6CDC18C2A2A800057BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AC6CE118C2A2A800057BF6 /* XCTest.framework in Frameworks */,
+				36AC6CE318C2A2A800057BF6 /* UIKit.framework in Frameworks */,
+				36AC6CE218C2A2A800057BF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36AC6CAF18C2A2A800057BF6 = {
+			isa = PBXGroup;
+			children = (
+				36AC6CC118C2A2A800057BF6 /* comedoresUGR */,
+				36AC6CE618C2A2A800057BF6 /* comedoresUGRTests */,
+				36AC6CBA18C2A2A800057BF6 /* Frameworks */,
+				36AC6CB918C2A2A800057BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36AC6CB918C2A2A800057BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36AC6CB818C2A2A800057BF6 /* comedoresUGR.app */,
+				36AC6CDF18C2A2A800057BF6 /* comedoresUGRTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36AC6CBA18C2A2A800057BF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36AC6CBB18C2A2A800057BF6 /* Foundation.framework */,
+				36AC6CBD18C2A2A800057BF6 /* CoreGraphics.framework */,
+				36AC6CBF18C2A2A800057BF6 /* UIKit.framework */,
+				36AC6CE018C2A2A800057BF6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36AC6CC118C2A2A800057BF6 /* comedoresUGR */ = {
+			isa = PBXGroup;
+			children = (
+				36AC6CCA18C2A2A800057BF6 /* AppDelegate.h */,
+				36AC6CCB18C2A2A800057BF6 /* AppDelegate.m */,
+				36AC6CCD18C2A2A800057BF6 /* Main_iPhone.storyboard */,
+				36AC6CD018C2A2A800057BF6 /* Main_iPad.storyboard */,
+				36AC6CD318C2A2A800057BF6 /* MasterViewController.h */,
+				36AC6CD418C2A2A800057BF6 /* MasterViewController.m */,
+				36AC6CD618C2A2A800057BF6 /* DetailViewController.h */,
+				36AC6CD718C2A2A800057BF6 /* DetailViewController.m */,
+				36AC6CD918C2A2A800057BF6 /* Images.xcassets */,
+				36AC6CC218C2A2A800057BF6 /* Supporting Files */,
+			);
+			path = comedoresUGR;
+			sourceTree = "<group>";
+		};
+		36AC6CC218C2A2A800057BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36AC6CC318C2A2A800057BF6 /* comedoresUGR-Info.plist */,
+				36AC6CC418C2A2A800057BF6 /* InfoPlist.strings */,
+				36AC6CC718C2A2A800057BF6 /* main.m */,
+				36AC6CC918C2A2A800057BF6 /* comedoresUGR-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36AC6CE618C2A2A800057BF6 /* comedoresUGRTests */ = {
+			isa = PBXGroup;
+			children = (
+				36AC6CEC18C2A2A800057BF6 /* comedoresUGRTests.m */,
+				36AC6CE718C2A2A800057BF6 /* Supporting Files */,
+			);
+			path = comedoresUGRTests;
+			sourceTree = "<group>";
+		};
+		36AC6CE718C2A2A800057BF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36AC6CE818C2A2A800057BF6 /* comedoresUGRTests-Info.plist */,
+				36AC6CE918C2A2A800057BF6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36AC6CB718C2A2A800057BF6 /* comedoresUGR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AC6CF018C2A2A800057BF6 /* Build configuration list for PBXNativeTarget "comedoresUGR" */;
+			buildPhases = (
+				36AC6CB418C2A2A800057BF6 /* Sources */,
+				36AC6CB518C2A2A800057BF6 /* Frameworks */,
+				36AC6CB618C2A2A800057BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = comedoresUGR;
+			productName = comedoresUGR;
+			productReference = 36AC6CB818C2A2A800057BF6 /* comedoresUGR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36AC6CDE18C2A2A800057BF6 /* comedoresUGRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AC6CF318C2A2A800057BF6 /* Build configuration list for PBXNativeTarget "comedoresUGRTests" */;
+			buildPhases = (
+				36AC6CDB18C2A2A800057BF6 /* Sources */,
+				36AC6CDC18C2A2A800057BF6 /* Frameworks */,
+				36AC6CDD18C2A2A800057BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36AC6CE518C2A2A800057BF6 /* PBXTargetDependency */,
+			);
+			name = comedoresUGRTests;
+			productName = comedoresUGRTests;
+			productReference = 36AC6CDF18C2A2A800057BF6 /* comedoresUGRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36AC6CB018C2A2A800057BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jose Colella";
+				TargetAttributes = {
+					36AC6CDE18C2A2A800057BF6 = {
+						TestTargetID = 36AC6CB718C2A2A800057BF6;
+					};
+				};
+			};
+			buildConfigurationList = 36AC6CB318C2A2A800057BF6 /* Build configuration list for PBXProject "comedoresUGR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36AC6CAF18C2A2A800057BF6;
+			productRefGroup = 36AC6CB918C2A2A800057BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36AC6CB718C2A2A800057BF6 /* comedoresUGR */,
+				36AC6CDE18C2A2A800057BF6 /* comedoresUGRTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36AC6CB618C2A2A800057BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AC6CD218C2A2A800057BF6 /* Main_iPad.storyboard in Resources */,
+				36AC6CDA18C2A2A800057BF6 /* Images.xcassets in Resources */,
+				36AC6CCF18C2A2A800057BF6 /* Main_iPhone.storyboard in Resources */,
+				36AC6CC618C2A2A800057BF6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36AC6CDD18C2A2A800057BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AC6CEB18C2A2A800057BF6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36AC6CB418C2A2A800057BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AC6CCC18C2A2A800057BF6 /* AppDelegate.m in Sources */,
+				36AC6CD518C2A2A800057BF6 /* MasterViewController.m in Sources */,
+				36AC6CC818C2A2A800057BF6 /* main.m in Sources */,
+				36AC6CD818C2A2A800057BF6 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36AC6CDB18C2A2A800057BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AC6CED18C2A2A800057BF6 /* comedoresUGRTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36AC6CE518C2A2A800057BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36AC6CB718C2A2A800057BF6 /* comedoresUGR */;
+			targetProxy = 36AC6CE418C2A2A800057BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36AC6CC418C2A2A800057BF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36AC6CC518C2A2A800057BF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36AC6CCD18C2A2A800057BF6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36AC6CCE18C2A2A800057BF6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		36AC6CD018C2A2A800057BF6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36AC6CD118C2A2A800057BF6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		36AC6CE918C2A2A800057BF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36AC6CEA18C2A2A800057BF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36AC6CEE18C2A2A800057BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36AC6CEF18C2A2A800057BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36AC6CF118C2A2A800057BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "comedoresUGR/comedoresUGR-Prefix.pch";
+				INFOPLIST_FILE = "comedoresUGR/comedoresUGR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36AC6CF218C2A2A800057BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "comedoresUGR/comedoresUGR-Prefix.pch";
+				INFOPLIST_FILE = "comedoresUGR/comedoresUGR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36AC6CF418C2A2A800057BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/comedoresUGR.app/comedoresUGR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "comedoresUGR/comedoresUGR-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "comedoresUGRTests/comedoresUGRTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		36AC6CF518C2A2A800057BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/comedoresUGR.app/comedoresUGR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "comedoresUGR/comedoresUGR-Prefix.pch";
+				INFOPLIST_FILE = "comedoresUGRTests/comedoresUGRTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36AC6CB318C2A2A800057BF6 /* Build configuration list for PBXProject "comedoresUGR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AC6CEE18C2A2A800057BF6 /* Debug */,
+				36AC6CEF18C2A2A800057BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36AC6CF018C2A2A800057BF6 /* Build configuration list for PBXNativeTarget "comedoresUGR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AC6CF118C2A2A800057BF6 /* Debug */,
+				36AC6CF218C2A2A800057BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36AC6CF318C2A2A800057BF6 /* Build configuration list for PBXNativeTarget "comedoresUGRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AC6CF418C2A2A800057BF6 /* Debug */,
+				36AC6CF518C2A2A800057BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36AC6CB018C2A2A800057BF6 /* Project object */;
+}
